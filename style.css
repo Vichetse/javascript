@@ -1,0 +1,80 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: space-around;
+}
+
+.container .box1 {
+    width: 500px;
+    height: 400px;
+    background: #ffa600;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.container .box1 p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.container .box1 .input_number {
+    padding: 30px;
+    text-align: center;
+}
+
+.container .box1 .input_number .form-control {
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border: 3px solid#ffffff;
+    font-size: 14px;
+}
+
+.container .box1 .button {
+    padding: 30px;
+    text-align: center;
+}
+
+.container .box1 button {
+    width: 150px;
+    height: 50px;
+    background: #ffffff;
+    border: 3px solid#ffffff;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.container .box2 {
+    width: 500px;
+    height: 400px;
+    background: #ffa600;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.container .box2 p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.container .box2 .result {
+    padding: 30px;
+    text-align: center;
+}
+
+.container .box2 .result .control {
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 14px;
+    border: 3px solid#ffffff;
+}
