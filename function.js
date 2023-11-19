@@ -34,11 +34,7 @@ function CountNumber(number) {
     result = translatenumber(number)
     return result.trim()
 }
-const newnumber = document.getElementById('Input').value;
-newnumber = number;
-if (number === "") {
-    console.log("Please enter a number to translate.");
-}
+number = prompt('enter you number')
 
 function showMessage() {
     console.log(CountNumber(number));
