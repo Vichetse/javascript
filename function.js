@@ -34,8 +34,9 @@ function CountNumber(number) {
     result = translatenumber(number)
     return result.trim()
 }
-number = 10
 
 function Convertnumber() {
+    number = document.getElementById("Input").value;
     console.log(CountNumber(number));
+
 }
