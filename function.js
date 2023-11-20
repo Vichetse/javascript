@@ -34,8 +34,8 @@ function CountNumber(number) {
     result = translatenumber(number)
     return result.trim()
 }
-number = prompt('enter you number')
+number = 10
 
-function showMessage() {
+function Convertnumber() {
     console.log(CountNumber(number));
 }
