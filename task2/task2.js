@@ -13,4 +13,4 @@ function isPalindrome(number) {
     return number === reversed;
 }
 console.log(isPalindrome(54345));
-console.log(isPalindrome(45354));
+console.log(isPalindrome(45324));
